@@ -1,0 +1,13 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-timescale
+1ns/1ps
+pwm_tb.v
+project_postroute_fixed.v
+-v
+/install/FOUNDRY/digital/180nm/RC_Libs/libraries/verilog/tsmc13_m.v
+-access
++rwc
+-gui

@@ -1,0 +1,6 @@
+define LIB_MAP ( $LIB_MAP \
+, ../../../../../../install/FOUNDRY/digital/180nm/RC_Libs/libraries/verilog/tsmc13_m.v => tsmc13_m \
+)
+define LIB_MAP ( $LIB_MAP \
+, ../../../../../../install/FOUNDRY/digital/180nm/RC_Libs/libraries/verilog/tsmc13_m.v => tsmc13_m \
+)

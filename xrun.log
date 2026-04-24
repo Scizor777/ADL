@@ -1,0 +1,436 @@
+xrun(64): 22.09-s003: (c) Copyright 1995-2022 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	22.09-s003: Started on Apr 10, 2026 at 15:42:15 IST
+xrun
+	-timescale 1ns/1ps
+	pwm_tb.v
+	project_postroute_fixed.v
+	-v /install/FOUNDRY/digital/180nm/RC_Libs/libraries/verilog/tsmc13_m.v
+	-access +rwc
+	-gui
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+xrun: *W,DLCPTH (/install/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE Yash_exp3 /home/student/Yash_exp3
+|
+xrun: *W,DLCPTH (../cds.lib,3): cds.lib Invalid path '/home/student/Yash_exp3' (cds.lib command ignored).
+DEFINE yash_exp4 /home/student/yash_exp4
+|
+xrun: *W,DLCPTH (../cds.lib,4): cds.lib Invalid path '/home/student/yash_exp4' (cds.lib command ignored).
+DEFINE avani#26farhan /home/student/avani#26farhan
+|
+xrun: *W,DLCPTH (../cds.lib,5): cds.lib Invalid path '/home/student/avani#26farhan' (cds.lib command ignored).
+DEFINE YashExp__1 /home/student/YashExp__1
+|
+xrun: *W,DLCPTH (../cds.lib,10): cds.lib Invalid path '/home/student/YashExp__1' (cds.lib command ignored).
+DEFINE neeraj /home/student/neeraj
+|
+xrun: *W,DLCPTH (../cds.lib,19): cds.lib Invalid path '/home/student/neeraj' (cds.lib command ignored).
+DEFINE yash /home/student/yash
+|
+xrun: *W,DLCPTH (../cds.lib,26): cds.lib Invalid path '/home/student/yash' (cds.lib command ignored).
+DEFINE yashprac /home/student/yashprac
+|
+xrun: *W,DLCPTH (../cds.lib,27): cds.lib Invalid path '/home/student/yashprac' (cds.lib command ignored).
+DEFINE avlsi_exp2 /home/student/avlsi_exp2
+|
+xrun: *W,DLCPTH (../cds.lib,45): cds.lib Invalid path '/home/student/avlsi_exp2' (cds.lib command ignored).
+DEFINE NOr /home/student/NOr
+|
+xrun: *W,DLCPTH (../cds.lib,53): cds.lib Invalid path '/home/student/NOr' (cds.lib command ignored).
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+xrun: *W,DLCPTH (/install/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE Yash_exp3 /home/student/Yash_exp3
+|
+xrun: *W,DLCPTH (../cds.lib,3): cds.lib Invalid path '/home/student/Yash_exp3' (cds.lib command ignored).
+DEFINE yash_exp4 /home/student/yash_exp4
+|
+xrun: *W,DLCPTH (../cds.lib,4): cds.lib Invalid path '/home/student/yash_exp4' (cds.lib command ignored).
+DEFINE avani#26farhan /home/student/avani#26farhan
+|
+xrun: *W,DLCPTH (../cds.lib,5): cds.lib Invalid path '/home/student/avani#26farhan' (cds.lib command ignored).
+DEFINE YashExp__1 /home/student/YashExp__1
+|
+xrun: *W,DLCPTH (../cds.lib,10): cds.lib Invalid path '/home/student/YashExp__1' (cds.lib command ignored).
+DEFINE neeraj /home/student/neeraj
+|
+xrun: *W,DLCPTH (../cds.lib,19): cds.lib Invalid path '/home/student/neeraj' (cds.lib command ignored).
+DEFINE yash /home/student/yash
+|
+xrun: *W,DLCPTH (../cds.lib,26): cds.lib Invalid path '/home/student/yash' (cds.lib command ignored).
+DEFINE yashprac /home/student/yashprac
+|
+xrun: *W,DLCPTH (../cds.lib,27): cds.lib Invalid path '/home/student/yashprac' (cds.lib command ignored).
+DEFINE avlsi_exp2 /home/student/avlsi_exp2
+|
+xrun: *W,DLCPTH (../cds.lib,45): cds.lib Invalid path '/home/student/avlsi_exp2' (cds.lib command ignored).
+DEFINE NOr /home/student/NOr
+|
+xrun: *W,DLCPTH (../cds.lib,53): cds.lib Invalid path '/home/student/NOr' (cds.lib command ignored).
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+xrun: *W,DLCPTH (/install/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE Yash_exp3 /home/student/Yash_exp3
+|
+xrun: *W,DLCPTH (../cds.lib,3): cds.lib Invalid path '/home/student/Yash_exp3' (cds.lib command ignored).
+DEFINE yash_exp4 /home/student/yash_exp4
+|
+xrun: *W,DLCPTH (../cds.lib,4): cds.lib Invalid path '/home/student/yash_exp4' (cds.lib command ignored).
+DEFINE avani#26farhan /home/student/avani#26farhan
+|
+xrun: *W,DLCPTH (../cds.lib,5): cds.lib Invalid path '/home/student/avani#26farhan' (cds.lib command ignored).
+DEFINE YashExp__1 /home/student/YashExp__1
+|
+xrun: *W,DLCPTH (../cds.lib,10): cds.lib Invalid path '/home/student/YashExp__1' (cds.lib command ignored).
+DEFINE neeraj /home/student/neeraj
+|
+xrun: *W,DLCPTH (../cds.lib,19): cds.lib Invalid path '/home/student/neeraj' (cds.lib command ignored).
+DEFINE yash /home/student/yash
+|
+xrun: *W,DLCPTH (../cds.lib,26): cds.lib Invalid path '/home/student/yash' (cds.lib command ignored).
+DEFINE yashprac /home/student/yashprac
+|
+xrun: *W,DLCPTH (../cds.lib,27): cds.lib Invalid path '/home/student/yashprac' (cds.lib command ignored).
+DEFINE avlsi_exp2 /home/student/avlsi_exp2
+|
+xrun: *W,DLCPTH (../cds.lib,45): cds.lib Invalid path '/home/student/avlsi_exp2' (cds.lib command ignored).
+DEFINE NOr /home/student/NOr
+|
+xrun: *W,DLCPTH (../cds.lib,53): cds.lib Invalid path '/home/student/NOr' (cds.lib command ignored).
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+xrun: *W,DLCPTH (/install/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE Yash_exp3 /home/student/Yash_exp3
+|
+xrun: *W,DLCPTH (../cds.lib,3): cds.lib Invalid path '/home/student/Yash_exp3' (cds.lib command ignored).
+DEFINE yash_exp4 /home/student/yash_exp4
+|
+xrun: *W,DLCPTH (../cds.lib,4): cds.lib Invalid path '/home/student/yash_exp4' (cds.lib command ignored).
+DEFINE avani#26farhan /home/student/avani#26farhan
+|
+xrun: *W,DLCPTH (../cds.lib,5): cds.lib Invalid path '/home/student/avani#26farhan' (cds.lib command ignored).
+DEFINE YashExp__1 /home/student/YashExp__1
+|
+xrun: *W,DLCPTH (../cds.lib,10): cds.lib Invalid path '/home/student/YashExp__1' (cds.lib command ignored).
+DEFINE neeraj /home/student/neeraj
+|
+xrun: *W,DLCPTH (../cds.lib,19): cds.lib Invalid path '/home/student/neeraj' (cds.lib command ignored).
+DEFINE yash /home/student/yash
+|
+xrun: *W,DLCPTH (../cds.lib,26): cds.lib Invalid path '/home/student/yash' (cds.lib command ignored).
+DEFINE yashprac /home/student/yashprac
+|
+xrun: *W,DLCPTH (../cds.lib,27): cds.lib Invalid path '/home/student/yashprac' (cds.lib command ignored).
+DEFINE avlsi_exp2 /home/student/avlsi_exp2
+|
+xrun: *W,DLCPTH (../cds.lib,45): cds.lib Invalid path '/home/student/avlsi_exp2' (cds.lib command ignored).
+DEFINE NOr /home/student/NOr
+|
+xrun: *W,DLCPTH (../cds.lib,53): cds.lib Invalid path '/home/student/NOr' (cds.lib command ignored).
+Recompiling... reason: file './pwm_tb.v' is newer than expected.
+	expected: Thu Apr  9 13:32:03 2026
+	actual:   Fri Apr 10 15:39:12 2026
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+xrun: *W,DLCPTH (/install/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE Yash_exp3 /home/student/Yash_exp3
+|
+xrun: *W,DLCPTH (../cds.lib,3): cds.lib Invalid path '/home/student/Yash_exp3' (cds.lib command ignored).
+DEFINE yash_exp4 /home/student/yash_exp4
+|
+xrun: *W,DLCPTH (../cds.lib,4): cds.lib Invalid path '/home/student/yash_exp4' (cds.lib command ignored).
+DEFINE avani#26farhan /home/student/avani#26farhan
+|
+xrun: *W,DLCPTH (../cds.lib,5): cds.lib Invalid path '/home/student/avani#26farhan' (cds.lib command ignored).
+DEFINE YashExp__1 /home/student/YashExp__1
+|
+xrun: *W,DLCPTH (../cds.lib,10): cds.lib Invalid path '/home/student/YashExp__1' (cds.lib command ignored).
+DEFINE neeraj /home/student/neeraj
+|
+xrun: *W,DLCPTH (../cds.lib,19): cds.lib Invalid path '/home/student/neeraj' (cds.lib command ignored).
+DEFINE yash /home/student/yash
+|
+xrun: *W,DLCPTH (../cds.lib,26): cds.lib Invalid path '/home/student/yash' (cds.lib command ignored).
+DEFINE yashprac /home/student/yashprac
+|
+xrun: *W,DLCPTH (../cds.lib,27): cds.lib Invalid path '/home/student/yashprac' (cds.lib command ignored).
+DEFINE avlsi_exp2 /home/student/avlsi_exp2
+|
+xrun: *W,DLCPTH (../cds.lib,45): cds.lib Invalid path '/home/student/avlsi_exp2' (cds.lib command ignored).
+DEFINE NOr /home/student/NOr
+|
+xrun: *W,DLCPTH (../cds.lib,53): cds.lib Invalid path '/home/student/NOr' (cds.lib command ignored).
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+xmvlog: *W,DLCPTH (/install/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE Yash_exp3 /home/student/Yash_exp3
+|
+xmvlog: *W,DLCPTH (../cds.lib,3): cds.lib Invalid path '/home/student/Yash_exp3' (cds.lib command ignored).
+DEFINE yash_exp4 /home/student/yash_exp4
+|
+xmvlog: *W,DLCPTH (../cds.lib,4): cds.lib Invalid path '/home/student/yash_exp4' (cds.lib command ignored).
+DEFINE avani#26farhan /home/student/avani#26farhan
+|
+xmvlog: *W,DLCPTH (../cds.lib,5): cds.lib Invalid path '/home/student/avani#26farhan' (cds.lib command ignored).
+DEFINE YashExp__1 /home/student/YashExp__1
+|
+xmvlog: *W,DLCPTH (../cds.lib,10): cds.lib Invalid path '/home/student/YashExp__1' (cds.lib command ignored).
+DEFINE neeraj /home/student/neeraj
+|
+xmvlog: *W,DLCPTH (../cds.lib,19): cds.lib Invalid path '/home/student/neeraj' (cds.lib command ignored).
+DEFINE yash /home/student/yash
+|
+xmvlog: *W,DLCPTH (../cds.lib,26): cds.lib Invalid path '/home/student/yash' (cds.lib command ignored).
+DEFINE yashprac /home/student/yashprac
+|
+xmvlog: *W,DLCPTH (../cds.lib,27): cds.lib Invalid path '/home/student/yashprac' (cds.lib command ignored).
+DEFINE avlsi_exp2 /home/student/avlsi_exp2
+|
+xmvlog: *W,DLCPTH (../cds.lib,45): cds.lib Invalid path '/home/student/avlsi_exp2' (cds.lib command ignored).
+DEFINE NOr /home/student/NOr
+|
+xmvlog: *W,DLCPTH (../cds.lib,53): cds.lib Invalid path '/home/student/NOr' (cds.lib command ignored).
+file: project_postroute_fixed.v
+	module worklib.pwm_gen:v
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 10
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+xrun: *W,DLCPTH (/install/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE Yash_exp3 /home/student/Yash_exp3
+|
+xrun: *W,DLCPTH (../cds.lib,3): cds.lib Invalid path '/home/student/Yash_exp3' (cds.lib command ignored).
+DEFINE yash_exp4 /home/student/yash_exp4
+|
+xrun: *W,DLCPTH (../cds.lib,4): cds.lib Invalid path '/home/student/yash_exp4' (cds.lib command ignored).
+DEFINE avani#26farhan /home/student/avani#26farhan
+|
+xrun: *W,DLCPTH (../cds.lib,5): cds.lib Invalid path '/home/student/avani#26farhan' (cds.lib command ignored).
+DEFINE YashExp__1 /home/student/YashExp__1
+|
+xrun: *W,DLCPTH (../cds.lib,10): cds.lib Invalid path '/home/student/YashExp__1' (cds.lib command ignored).
+DEFINE neeraj /home/student/neeraj
+|
+xrun: *W,DLCPTH (../cds.lib,19): cds.lib Invalid path '/home/student/neeraj' (cds.lib command ignored).
+DEFINE yash /home/student/yash
+|
+xrun: *W,DLCPTH (../cds.lib,26): cds.lib Invalid path '/home/student/yash' (cds.lib command ignored).
+DEFINE yashprac /home/student/yashprac
+|
+xrun: *W,DLCPTH (../cds.lib,27): cds.lib Invalid path '/home/student/yashprac' (cds.lib command ignored).
+DEFINE avlsi_exp2 /home/student/avlsi_exp2
+|
+xrun: *W,DLCPTH (../cds.lib,45): cds.lib Invalid path '/home/student/avlsi_exp2' (cds.lib command ignored).
+DEFINE NOr /home/student/NOr
+|
+xrun: *W,DLCPTH (../cds.lib,53): cds.lib Invalid path '/home/student/NOr' (cds.lib command ignored).
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+xrun: *W,DLCPTH (/install/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE Yash_exp3 /home/student/Yash_exp3
+|
+xrun: *W,DLCPTH (../cds.lib,3): cds.lib Invalid path '/home/student/Yash_exp3' (cds.lib command ignored).
+DEFINE yash_exp4 /home/student/yash_exp4
+|
+xrun: *W,DLCPTH (../cds.lib,4): cds.lib Invalid path '/home/student/yash_exp4' (cds.lib command ignored).
+DEFINE avani#26farhan /home/student/avani#26farhan
+|
+xrun: *W,DLCPTH (../cds.lib,5): cds.lib Invalid path '/home/student/avani#26farhan' (cds.lib command ignored).
+DEFINE YashExp__1 /home/student/YashExp__1
+|
+xrun: *W,DLCPTH (../cds.lib,10): cds.lib Invalid path '/home/student/YashExp__1' (cds.lib command ignored).
+DEFINE neeraj /home/student/neeraj
+|
+xrun: *W,DLCPTH (../cds.lib,19): cds.lib Invalid path '/home/student/neeraj' (cds.lib command ignored).
+DEFINE yash /home/student/yash
+|
+xrun: *W,DLCPTH (../cds.lib,26): cds.lib Invalid path '/home/student/yash' (cds.lib command ignored).
+DEFINE yashprac /home/student/yashprac
+|
+xrun: *W,DLCPTH (../cds.lib,27): cds.lib Invalid path '/home/student/yashprac' (cds.lib command ignored).
+DEFINE avlsi_exp2 /home/student/avlsi_exp2
+|
+xrun: *W,DLCPTH (../cds.lib,45): cds.lib Invalid path '/home/student/avlsi_exp2' (cds.lib command ignored).
+DEFINE NOr /home/student/NOr
+|
+xrun: *W,DLCPTH (../cds.lib,53): cds.lib Invalid path '/home/student/NOr' (cds.lib command ignored).
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+xmelab: *W,DLCPTH (/install/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE Yash_exp3 /home/student/Yash_exp3
+|
+xmelab: *W,DLCPTH (../cds.lib,3): cds.lib Invalid path '/home/student/Yash_exp3' (cds.lib command ignored).
+DEFINE yash_exp4 /home/student/yash_exp4
+|
+xmelab: *W,DLCPTH (../cds.lib,4): cds.lib Invalid path '/home/student/yash_exp4' (cds.lib command ignored).
+DEFINE avani#26farhan /home/student/avani#26farhan
+|
+xmelab: *W,DLCPTH (../cds.lib,5): cds.lib Invalid path '/home/student/avani#26farhan' (cds.lib command ignored).
+DEFINE YashExp__1 /home/student/YashExp__1
+|
+xmelab: *W,DLCPTH (../cds.lib,10): cds.lib Invalid path '/home/student/YashExp__1' (cds.lib command ignored).
+DEFINE neeraj /home/student/neeraj
+|
+xmelab: *W,DLCPTH (../cds.lib,19): cds.lib Invalid path '/home/student/neeraj' (cds.lib command ignored).
+DEFINE yash /home/student/yash
+|
+xmelab: *W,DLCPTH (../cds.lib,26): cds.lib Invalid path '/home/student/yash' (cds.lib command ignored).
+DEFINE yashprac /home/student/yashprac
+|
+xmelab: *W,DLCPTH (../cds.lib,27): cds.lib Invalid path '/home/student/yashprac' (cds.lib command ignored).
+DEFINE avlsi_exp2 /home/student/avlsi_exp2
+|
+xmelab: *W,DLCPTH (../cds.lib,45): cds.lib Invalid path '/home/student/avlsi_exp2' (cds.lib command ignored).
+DEFINE NOr /home/student/NOr
+|
+xmelab: *W,DLCPTH (../cds.lib,53): cds.lib Invalid path '/home/student/NOr' (cds.lib command ignored).
+		Caching library 'tsmc13_m' ....... Done
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		pwm_tb
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+xmsdfc: *W,DLCPTH (/install/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE Yash_exp3 /home/student/Yash_exp3
+|
+xmsdfc: *W,DLCPTH (../cds.lib,3): cds.lib Invalid path '/home/student/Yash_exp3' (cds.lib command ignored).
+DEFINE yash_exp4 /home/student/yash_exp4
+|
+xmsdfc: *W,DLCPTH (../cds.lib,4): cds.lib Invalid path '/home/student/yash_exp4' (cds.lib command ignored).
+DEFINE avani#26farhan /home/student/avani#26farhan
+|
+xmsdfc: *W,DLCPTH (../cds.lib,5): cds.lib Invalid path '/home/student/avani#26farhan' (cds.lib command ignored).
+DEFINE YashExp__1 /home/student/YashExp__1
+|
+xmsdfc: *W,DLCPTH (../cds.lib,10): cds.lib Invalid path '/home/student/YashExp__1' (cds.lib command ignored).
+DEFINE neeraj /home/student/neeraj
+|
+xmsdfc: *W,DLCPTH (../cds.lib,19): cds.lib Invalid path '/home/student/neeraj' (cds.lib command ignored).
+DEFINE yash /home/student/yash
+|
+xmsdfc: *W,DLCPTH (../cds.lib,26): cds.lib Invalid path '/home/student/yash' (cds.lib command ignored).
+DEFINE yashprac /home/student/yashprac
+|
+xmsdfc: *W,DLCPTH (../cds.lib,27): cds.lib Invalid path '/home/student/yashprac' (cds.lib command ignored).
+DEFINE avlsi_exp2 /home/student/avlsi_exp2
+|
+xmsdfc: *W,DLCPTH (../cds.lib,45): cds.lib Invalid path '/home/student/avlsi_exp2' (cds.lib command ignored).
+DEFINE NOr /home/student/NOr
+|
+xmsdfc: *W,DLCPTH (../cds.lib,53): cds.lib Invalid path '/home/student/NOr' (cds.lib command ignored).
+	Reading SDF file from location "project_postroute_fixed.sdf"
+	Writing compiled SDF file to "project_postroute_fixed.sdf.X".
+	Annotating SDF timing data:
+		Compiled SDF file:     project_postroute_fixed.sdf.X
+		Log file:              
+		Backannotation scope:  pwm_tb.uut
+		Configuration file:    
+		MTM control:           
+		Scale factors:         
+		Scale type:            
+	Annotation completed successfully...
+	SDF statistics: 
+		 No. of Pathdelays = 105     	 No. of Disabled Pathdelays = 0        Annotated = 100.00% (105/105) 
+		 No. of Tchecks    = 63      	 No. of Disabled Tchecks    = 0        Annotated = 0.00% (0/63) 
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+xmvlog_cg: *W,DLCPTH (/install/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE Yash_exp3 /home/student/Yash_exp3
+|
+xmvlog_cg: *W,DLCPTH (../cds.lib,3): cds.lib Invalid path '/home/student/Yash_exp3' (cds.lib command ignored).
+DEFINE yash_exp4 /home/student/yash_exp4
+|
+xmvlog_cg: *W,DLCPTH (../cds.lib,4): cds.lib Invalid path '/home/student/yash_exp4' (cds.lib command ignored).
+DEFINE avani#26farhan /home/student/avani#26farhan
+|
+xmvlog_cg: *W,DLCPTH (../cds.lib,5): cds.lib Invalid path '/home/student/avani#26farhan' (cds.lib command ignored).
+DEFINE YashExp__1 /home/student/YashExp__1
+|
+xmvlog_cg: *W,DLCPTH (../cds.lib,10): cds.lib Invalid path '/home/student/YashExp__1' (cds.lib command ignored).
+DEFINE neeraj /home/student/neeraj
+|
+xmvlog_cg: *W,DLCPTH (../cds.lib,19): cds.lib Invalid path '/home/student/neeraj' (cds.lib command ignored).
+DEFINE yash /home/student/yash
+|
+xmvlog_cg: *W,DLCPTH (../cds.lib,26): cds.lib Invalid path '/home/student/yash' (cds.lib command ignored).
+DEFINE yashprac /home/student/yashprac
+|
+xmvlog_cg: *W,DLCPTH (../cds.lib,27): cds.lib Invalid path '/home/student/yashprac' (cds.lib command ignored).
+DEFINE avlsi_exp2 /home/student/avlsi_exp2
+|
+xmvlog_cg: *W,DLCPTH (../cds.lib,45): cds.lib Invalid path '/home/student/avlsi_exp2' (cds.lib command ignored).
+DEFINE NOr /home/student/NOr
+|
+xmvlog_cg: *W,DLCPTH (../cds.lib,53): cds.lib Invalid path '/home/student/NOr' (cds.lib command ignored).
+		worklib.pwm_tb:v <0x4f321e27>
+			streams:   5, words:  1877
+		tsmc13_m.DFFTRX1M:v <0x4229265a>
+			streams:   0, words:     0
+		tsmc13_m.DFFTRX1M:v <0x565aaa93>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                44      13
+		UDPs:                    9       1
+		Primitives:            112       6
+		Timing outputs:         51       7
+		Registers:              12       5
+		Scalar wires:          107       -
+		Expanded wires:          8       1
+		Always blocks:           1       1
+		Initial blocks:          1       1
+		Pseudo assignments:      3       3
+		Timing checks:          99      38
+		Interconnect:          115      55
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.pwm_tb:v
+DEFINE rfLib_new	/home/install/FOUNDRY/rfLib_new
+|
+xmsim: *W,DLCPTH (/install/FOUNDRY/cds.lib,19): cds.lib Invalid path '/home/install/FOUNDRY/rfLib_new' (cds.lib command ignored).
+DEFINE Yash_exp3 /home/student/Yash_exp3
+|
+xmsim: *W,DLCPTH (../cds.lib,3): cds.lib Invalid path '/home/student/Yash_exp3' (cds.lib command ignored).
+DEFINE yash_exp4 /home/student/yash_exp4
+|
+xmsim: *W,DLCPTH (../cds.lib,4): cds.lib Invalid path '/home/student/yash_exp4' (cds.lib command ignored).
+DEFINE avani#26farhan /home/student/avani#26farhan
+|
+xmsim: *W,DLCPTH (../cds.lib,5): cds.lib Invalid path '/home/student/avani#26farhan' (cds.lib command ignored).
+DEFINE YashExp__1 /home/student/YashExp__1
+|
+xmsim: *W,DLCPTH (../cds.lib,10): cds.lib Invalid path '/home/student/YashExp__1' (cds.lib command ignored).
+DEFINE neeraj /home/student/neeraj
+|
+xmsim: *W,DLCPTH (../cds.lib,19): cds.lib Invalid path '/home/student/neeraj' (cds.lib command ignored).
+DEFINE yash /home/student/yash
+|
+xmsim: *W,DLCPTH (../cds.lib,26): cds.lib Invalid path '/home/student/yash' (cds.lib command ignored).
+DEFINE yashprac /home/student/yashprac
+|
+xmsim: *W,DLCPTH (../cds.lib,27): cds.lib Invalid path '/home/student/yashprac' (cds.lib command ignored).
+DEFINE avlsi_exp2 /home/student/avlsi_exp2
+|
+xmsim: *W,DLCPTH (../cds.lib,45): cds.lib Invalid path '/home/student/avlsi_exp2' (cds.lib command ignored).
+DEFINE NOr /home/student/NOr
+|
+xmsim: *W,DLCPTH (../cds.lib,53): cds.lib Invalid path '/home/student/NOr' (cds.lib command ignored).
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /install/XCELIUM2209/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm pwm_tb.clk pwm_tb.duty pwm_tb.pwm_out pwm_tb.reset
+Created probe 1
+xcelium> run
+Simulation complete via $finish(1) at time 3020 NS + 0
+./pwm_tb.v:39         $finish; // Stop the simulation automatically
+xcelium> TOOL:	xrun(64)	22.09-s003: Exiting on Apr 10, 2026 at 15:49:28 IST  (total: 00:07:13)

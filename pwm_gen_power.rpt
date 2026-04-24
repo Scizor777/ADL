@@ -1,0 +1,83 @@
+*----------------------------------------------------------------------------------------
+*	Innovus 21.15-s110_1 (64bit) 09/23/2022 13:08 (Linux 3.10.0-693.el7.x86_64)
+*	
+*
+* 	Date & Time:	2026-Apr-13 12:14:25 (2026-Apr-13 06:44:25 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: pwm_gen
+*
+*	Liberty Libraries used: 
+*	        setup: /home/student/adl_pwm/route.enc.dat/libs/mmmc/slow.lib
+*
+*	Power Domain used: 
+*              Rail:        VDD      Voltage:       1.62 
+*
+*       Power View : setup
+*
+*       User-Defined Activity : N.A.
+*
+*       Activity File: N.A.
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: 0.200000
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs 
+*
+*       report_power -outfile pwm_gen_power.rpt
+*
+-----------------------------------------------------------------------------------------
+
+
+Total Power 
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.07115460 	   88.4466%
+Total Switching Power:       0.00926823 	   11.5206%
+Total Leakage Power:         0.00002639 	    0.0328%
+Total Power:                 0.08044923 
+-----------------------------------------------------------------------------------------
+
+
+Group                           Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+Sequential                       0.06336    0.003352   1.377e-05     0.06673       82.94 
+Macro                                  0           0           0           0           0 
+IO                                     0           0           0           0           0 
+Combinational                   0.007795    0.005916   1.262e-05     0.01372       17.06 
+Clock (Combinational)                  0           0           0           0           0 
+Clock (Sequential)                     0           0           0           0           0 
+-----------------------------------------------------------------------------------------
+Total                            0.07115    0.009268   2.639e-05     0.08045         100 
+-----------------------------------------------------------------------------------------
+
+
+Rail                  Voltage   Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+VDD                      1.62    0.07115    0.009268   2.639e-05     0.08045         100 
+
+
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+*                Highest Average Power:            counter_reg[4] (DFFTRX1):          0.00752 
+*                Highest Leakage Power:               pwm_out_reg (DFFTRX1):         1.53e-06 
+*          Total Cap:      3.58705e-13 F
+*          Total instances in design:    42
+*          Total instances in design with no power:     0
+*          Total instances in design with no activity:     0
+*          Total Fillers and Decap:     0
+-----------------------------------------------------------------------------------------
+

@@ -1,0 +1,12 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(09Apr2026:12:51:43):( xrun pwm.v -access +rwc -gui )
+s2::(09Apr2026:13:32:54):( xrun pwm.v pwm_tb.v -access +rwc -gui )
+s3::(09Apr2026:13:33:06):( xrun pwm.v pwm_tb.v -access +rwc -gui )
+s4::(09Apr2026:13:35:11):( xrun pwm.v pwm_tb.v -access +rwc -gui )
+s5::(09Apr2026:15:24:26):( xrun pwm_tb.v pwm_synth_fixed.v -v /install/FOUNDRY/digital/180nm/RC_Libs/libraries/verilog/tsmc13_m.v -access +rwc -gui )
+s6::(09Apr2026:15:27:15):( xrun pwm_tb.v pwm_synth_fixed.v -v /install/FOUNDRY/digital/180nm/RC_Libs/libraries/verilog/tsmc13_m.v -access +rwc -gui )
+s7::(10Apr2026:15:39:31):( xrun -timescale 1ns/1ps pwm_tb.v project_postroute_fixed.v -v /install/FOUNDRY/digital/180nm/RC_Libs/libraries/verilog/tsmc13_m.v -access +rwc -gui )
+s8::(10Apr2026:15:42:15):( xrun -timescale 1ns/1ps pwm_tb.v project_postroute_fixed.v -v /install/FOUNDRY/digital/180nm/RC_Libs/libraries/verilog/tsmc13_m.v -access +rwc -gui )

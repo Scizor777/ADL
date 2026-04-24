@@ -1,0 +1,1627 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v21.15-s110_1, built Fri Sep 23 13:08:12 PDT 2022
+Options:	
+Date:		Mon Apr 13 12:29:45 2026
+Host:		vesit.ves.ac.in (x86_64 w/Linux 4.18.0-425.19.2.el8_7.x86_64) (10cores*16cpus*Intel(R) Core(TM) i5-14400 20480KB)
+OS:		Red Hat Enterprise Linux release 8.7 (Ootpa)
+
+License:
+		[12:29:45.275897] Configured Lic search path (21.01-s002): 5280@14.139.1.126
+
+		invs	Innovus Implementation System	21.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+[INFO] Loading PVS 22.20 fill procedures
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> is_common_ui_mode
+<CMD> restoreDesign /home/student/adl_pwm/route.enc.dat pwm_gen
+#% Begin load design ... (date=04/13 12:30:07, mem=1008.7M)
+Set Default Input Pin Transition as 0.1 ps.
+Loading design 'pwm_gen' saved by 'Innovus' '21.15-s110_1' on 'Fri Apr 10 15:30:44 2026'.
+% Begin Load MMMC data ... (date=04/13 12:30:07, mem=1011.0M)
+% End Load MMMC data ... (date=04/13 12:30:07, total cpu=0:00:00.0, real=0:00:00.0, peak res=1011.8M, current mem=1011.8M)
+default_rc_corner
+
+Loading LEF file /home/student/adl_pwm/route.enc.dat/libs/lef/all.lef ...
+Set DBUPerIGU to M2 pitch 1320.
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[0]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[10]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[11]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[12]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[13]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[14]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[15]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[1]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[2]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[3]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[4]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[5]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[6]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[7]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[8]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[9]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[0]' in macro 'ram_256x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[10]' in macro 'ram_256x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[11]' in macro 'ram_256x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[12]' in macro 'ram_256x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'PDB04DGZ' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+**WARN: (IMPLF-200):	Pin 'OEN' in macro 'PDB04DGZ' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+**WARN: (IMPLF-200):	Pin 'I' in macro 'PDB04DGZ' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+Loading view definition file from /home/student/adl_pwm/route.enc.dat/viewDefinition.tcl
+Reading max_timing timing library '/install/FOUNDRY/digital/180nm/dig/lib/slow.lib' ...
+**WARN: (TECHLIB-302):	No function defined for cell 'HOLDX1'. The cell will only be used for analysis. (File /install/FOUNDRY/digital/180nm/dig/lib/slow.lib)
+Read 462 cells in library 'tsmc18' 
+Reading min_timing timing library '/install/FOUNDRY/digital/180nm/dig/lib/fast.lib' ...
+**WARN: (TECHLIB-302):	No function defined for cell 'HOLDX1'. The cell will only be used for analysis. (File /install/FOUNDRY/digital/180nm/dig/lib/fast.lib)
+Read 470 cells in library 'tsmc18' 
+*** End library_loading (cpu=0.01min, real=0.02min, mem=31.9M, fe_cpu=0.19min, fe_real=0.38min, fe_mem=1110.9M) ***
+% Begin Load netlist data ... (date=04/13 12:30:08, mem=1034.4M)
+*** Begin netlist parsing (mem=1110.9M) ***
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3X2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3X2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Created 470 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilogBinary netlist '/home/student/adl_pwm/route.enc.dat/pwm_gen.v.bin'
+
+*** Memory Usage v#1 (Current mem = 1116.855M, initial mem = 483.867M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=1116.9M) ***
+% End Load netlist data ... (date=04/13 12:30:08, total cpu=0:00:00.0, real=0:00:00.0, peak res=1048.6M, current mem=1048.6M)
+Set top cell to pwm_gen.
+Hooked 932 DB cells to tlib cells.
+** Removed 8 unused lib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell pwm_gen ...
+*** Netlist is unique.
+** info: there are 951 modules.
+** info: there are 42 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 1164.270M, initial mem = 483.867M) ***
+*info: set bottom ioPad orient R0
+**WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Horizontal Layer M1 offset = 560 (derived)
+Vertical Layer M2 offset = 660 (derived)
+Start create_tracks
+Generated pitch 0.99 in Metal6 is different from 1.32 defined in technology file in preferred direction.
+Generated pitch 0.56 in Metal5 is different from 1.12 defined in technology file in preferred direction.
+Loading preference file /home/student/adl_pwm/route.enc.dat/gui.pref.tcl ...
+##  Process: 180           (User Set)               
+##     Node: (not set)                           
+
+##  Check design process and node:  
+##  Design tech node is not set.
+
+Applying the recommended capacitance filtering threshold values for 180nm process node: total_c_th=5, relative_c_th=0.03 and coupling_c_th=3.
+	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+	For postRoute effortLevel low extraction, the coupling_c_th value will be used only when the -capFilterMode parameter of the setExtractRCMode command is set to relAndCoup or relOrCoup. Default value of -capFilterMode parameter in postRoute extraction effortLevel low is relOnly.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'standard'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode is 'low'.
+**WARN: (IMPOPT-3602):	The specified path group name reg2reg is not defined.
+Type 'man IMPOPT-3602' for more detail.
+Effort level <high> specified for reg2reg path_group
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+#WARNING (NRIF-90) Option setNanoRouteMode -routeBottomRoutingLayer is obsolete. It will continue to work for the current release. To ensure compatibility with future releases, use option setDesignMode -bottomRoutingLayer instead.
+#WARNING (NRIF-91) Option setNanoRouteMode -routeTopRoutingLayer is obsolete. It will continue to work for the current release. To ensure compatibility with future releases, use option setDesignMode -topRoutingLayer instead.
+AAE_INFO: switching -siAware from false to true ...
+AAE_INFO: The setting is changed from false to true in setDelayCalMode -SIAware
+addRing command will ignore shorts while creating rings.
+addRing command will disallow rings to go over rows.
+addRing command will consider rows while creating rings.
+The ring targets are set to core/block ring wires.
+addStripe will allow jog to connect padcore ring and block ring.
+
+Stripes will not extend to closest target.
+When breaking rings, the power planner will consider the existence of blocks.
+addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+The entire stripe set will break at the domain if one of the nets is not in the domain.
+Stripes will not be created over regions without power planning wires.
+Offset for stripe breaking is set to 0.
+Stripes will stop at the boundary of the specified area.
+The power planner will set stripe antenna targets to none (no trimming allowed).
+Change floorplan default-technical-site to 'tsm3site'.
+*Info: initialize multi-corner CTS.
+Total number of combinational cells: 266
+Total number of sequential cells: 178
+Total number of tristate cells: 18
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX2 BUFX1 BUFX12 BUFX16 BUFX20 BUFX3 BUFX4 BUFX8 BUFXL CLKBUFX2 CLKBUFX1 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX8 CLKBUFXL
+Total number of usable buffers: 18
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: RFRDX2 RFRDX1 RFRDX4 CLKINVX2 CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX8 CLKINVXL INVX1 INVX2 INVX12 INVX16 INVX20 INVX3 INVXL INVX4 INVX8
+Total number of usable inverters: 21
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DLY2X1 DLY1X1 DLY4X1 DLY3X1
+Total number of identified usable delay cells: 4
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+% Begin Load MMMC data post ... (date=04/13 12:30:08, mem=1335.9M)
+% End Load MMMC data post ... (date=04/13 12:30:08, total cpu=0:00:00.0, real=0:00:00.0, peak res=1335.9M, current mem=1335.9M)
+Reading floorplan file - /home/student/adl_pwm/route.enc.dat/pwm_gen.fp.gz (mem = 1411.4M).
+% Begin Load floorplan data ... (date=04/13 12:30:08, mem=1335.9M)
+*info: reset 63 existing net BottomPreferredLayer and AvoidDetour
+Deleting old partition specification.
+Set FPlanBox to (0 0 134640 100800)
+**WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Horizontal Layer M1 offset = 560 (derived)
+Vertical Layer M2 offset = 660 (derived)
+Start create_tracks
+Generated pitch 0.99 in Metal6 is different from 1.32 defined in technology file in preferred direction.
+Generated pitch 0.56 in Metal5 is different from 1.12 defined in technology file in preferred direction.
+ ... processed partition successfully.
+Reading binary special route file /home/student/adl_pwm/route.enc.dat/pwm_gen.fp.spr.gz (Created by Innovus v21.15-s110_1 on Fri Apr 10 15:30:44 2026, version: 1)
+Convert 0 swires and 0 svias from compressed groups
+35 swires and 90 svias were compressed
+35 swires and 90 svias were decompressed from small or sparse groups
+Ending "Read special route file" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1337.7M, current mem=1337.7M)
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+% End Load floorplan data ... (date=04/13 12:30:08, total cpu=0:00:00.0, real=0:00:01.0, peak res=1339.1M, current mem=1339.1M)
+Reading congestion map file /home/student/adl_pwm/route.enc.dat/pwm_gen.route.congmap.gz ...
+% Begin Load SymbolTable ... (date=04/13 12:30:09, mem=1339.3M)
+% End Load SymbolTable ... (date=04/13 12:30:09, total cpu=0:00:00.0, real=0:00:00.0, peak res=1340.0M, current mem=1340.0M)
+Loading place ...
+% Begin Load placement data ... (date=04/13 12:30:09, mem=1340.0M)
+Reading placement file - /home/student/adl_pwm/route.enc.dat/pwm_gen.place.gz.
+** Reading stdCellPlacement_binary (Created by Innovus v21.15-s110_1 on Fri Apr 10 15:30:44 2026, version# 2) ...
+Read Views for adaptive view pruning ...
+Read 0 views from Binary DB for adaptive view pruning
+*** Checked 2 GNC rules.
+*** applyConnectGlobalNets disabled.
+*** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1416.4M) ***
+Total net length = 7.840e+02 (3.491e+02 4.348e+02) (ext = 2.346e+02)
+% End Load placement data ... (date=04/13 12:30:09, total cpu=0:00:00.0, real=0:00:00.0, peak res=1342.6M, current mem=1340.7M)
+Reading PG file /home/student/adl_pwm/route.enc.dat/pwm_gen.pg.gz, version#2, (Created by Innovus v21.15-s110_1 on       Fri Apr 10 15:30:44 2026)
+*** Completed restorePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=1412.4M) ***
+% Begin Load routing data ... (date=04/13 12:30:09, mem=1341.1M)
+Reading routing file - /home/student/adl_pwm/route.enc.dat/pwm_gen.route.gz.
+Reading Innovus routing data (Created by Innovus v21.15-s110_1 on Fri Apr 10 15:30:44 2026 Format: 20.1) ...
+*** Total 63 nets are successfully restored.
+*** Completed restoreRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1413.4M) ***
+% End Load routing data ... (date=04/13 12:30:09, total cpu=0:00:00.0, real=0:00:00.0, peak res=1341.6M, current mem=1341.6M)
+TAT_INFO: restoreCongMap REAL = 0 : CPU = 0 : MEM = 0.
+Reading property file /home/student/adl_pwm/route.enc.dat/pwm_gen.prop
+*** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1416.4M) ***
+Reading dirtyarea snapshot file /home/student/adl_pwm/route.enc.dat/pwm_gen.db.da.gz (Create by Innovus v21.15-s110_1 on Fri Apr 10 15:30:44 2026, version: 4).
+Set Default Input Pin Transition as 0.1 ps.
+Extraction setup Started 
+Initializing multi-corner RC extraction with 1 active RC Corners ...
+**WARN: (IMPEXT-2773):	The via resistance between layers POLY and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man IMPEXT-2773' for more detail.
+**WARN: (IMPEXT-2776):	The via resistance between layers M1 and M2 is not defined in the capacitance table file. The via resistance of 6.4 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+Type 'man IMPEXT-2776' for more detail.
+**WARN: (IMPEXT-2776):	The via resistance between layers M2 and M3 is not defined in the capacitance table file. The via resistance of 6.4 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+Type 'man IMPEXT-2776' for more detail.
+**WARN: (IMPEXT-2776):	The via resistance between layers M3 and M4 is not defined in the capacitance table file. The via resistance of 6.4 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+Type 'man IMPEXT-2776' for more detail.
+**WARN: (IMPEXT-2776):	The via resistance between layers M4 and M5 is not defined in the capacitance table file. The via resistance of 6.4 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+Type 'man IMPEXT-2776' for more detail.
+**WARN: (IMPEXT-2776):	The via resistance between layers M5 and M6 is not defined in the capacitance table file. The via resistance of 2.54 Ohms defined in the LEF technology file will be used as via resistance between these layers.
+Type 'man IMPEXT-2776' for more detail.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M1 is not defined in the cap table. Therefore, the LEF value 0.101 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M2 is not defined in the cap table. Therefore, the LEF value 0.101 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M3 is not defined in the cap table. Therefore, the LEF value 0.101 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M4 is not defined in the cap table. Therefore, the LEF value 0.101 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M5 is not defined in the cap table. Therefore, the LEF value 0.101 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M6 is not defined in the cap table. Therefore, the LEF value 0.045 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+Summary of Active RC-Corners : 
+ 
+ Analysis View: setup
+    RC-Corner Name        : default_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from Cap Table]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from Cap Table]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PostRoute Clock coupling capacitance Factor : 1 {1 1 1} 
+ 
+ Analysis View: hold
+    RC-Corner Name        : default_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from Cap Table]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from Cap Table]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PostRoute Clock coupling capacitance Factor : 1 {1 1 1} 
+Initializing multi-corner resistance tables ...
+Start generating vias ..
+#Skip building auto via since it is not turned on.
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+Via generation completed.
+% Begin Load power constraints ... (date=04/13 12:30:09, mem=1349.3M)
+'set_default_switching_activity' finished successfully.
+% End Load power constraints ... (date=04/13 12:30:09, total cpu=0:00:00.0, real=0:00:00.0, peak res=1356.4M, current mem=1356.4M)
+max_delay min_delay
+% Begin load AAE data ... (date=04/13 12:30:09, mem=1370.3M)
+AAE DB initialization (MEM=1465.44 CPU=0:00:00.0 REAL=0:00:00.0) 
+% End load AAE data ... (date=04/13 12:30:10, total cpu=0:00:00.4, real=0:00:01.0, peak res=1376.8M, current mem=1376.8M)
+Restoring CCOpt config...
+  Extracting original clock gating for clk...
+    clock_tree clk contains 9 sinks and 0 clock gates.
+  Extracting original clock gating for clk done.
+  The skew group clk/top was created. It contains 9 sinks and 1 sources.
+Restoring CCOpt config done.
+Total number of combinational cells: 266
+Total number of sequential cells: 178
+Total number of tristate cells: 18
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX2 BUFX1 BUFX12 BUFX16 BUFX20 BUFX3 BUFX4 BUFX8 BUFXL CLKBUFX2 CLKBUFX1 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX8 CLKBUFXL
+Total number of usable buffers: 18
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: CLKINVX2 CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX8 CLKINVXL INVX1 INVX2 INVX12 INVX16 INVX20 INVX3 INVXL INVX4 INVX8
+Total number of usable inverters: 18
+List of unusable inverters: RFRDX2 RFRDX1 RFRDX4
+Total number of unusable inverters: 3
+List of identified usable delay cells: DLY2X1 DLY1X1 DLY4X1 DLY3X1
+Total number of identified usable delay cells: 4
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+**WARN: (IMPCTE-107):	The following globals have been obsoleted since version . They will be removed in the next release. 
+timing_enable_separate_device_slew_effect_sensitivities
+#% End load design ... (date=04/13 12:30:10, total cpu=0:00:02.0, real=0:00:03.0, peak res=1400.8M, current mem=1382.9M)
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPLF-200            4  Pin '%s' in macro '%s' has no ANTENNAGAT...
+WARNING   IMPLF-201           50  Pin '%s' in macro '%s' has no ANTENNADIF...
+WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+WARNING   IMPEXT-2766          6  The sheet resistance for layer %s is not...
+WARNING   IMPEXT-2773          1  The via resistance between layers %s and...
+WARNING   IMPEXT-2776          5  The via resistance between layers %s and...
+WARNING   IMPVL-159          924  Pin '%s' of cell '%s' is defined in LEF ...
+WARNING   IMPOPT-3602          1  The specified path group name %s is not ...
+WARNING   IMPCTE-107           1  The following globals have been obsolete...
+WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+WARNING   TECHLIB-302          2  No function defined for cell '%s'. The c...
+*** Message Summary: 999 warning(s), 0 error(s)
+
+<CMD> setDrawView fplan
+<CMD> encMessage warning 1
+Un-suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> fit
+<CMD> streamOut pwm_gen.gds -cellMap cell_map.txt -merge /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 -units 2000 -structureName pwm_gen
+
+Usage: streamOut [-help] <fileName> [-attachNetProp <string>]
+                 [-dieAreaAsBoundary] [-libName <string>] [-mapFile <string>]
+                 [-mergeViaCellMapFile <string>]
+                 [-mode {ALL FILLONLY NOFILL NOINSTANCES}] [-noStructureName]
+                 [-offset {x y}] [-outputCriticalNetColorFromFileOnly <string>]
+                 [-outputMacros] [-pvs_fill] [-reportFile <string>]
+                 [-structureName <string>] [-units <integer>] [-merge <string> [-noTSV <tsv_name_list>] [-uniquifyCellNames ]] [-area {x1 y1 x2 y2} [-strict ]] [-format {stream oasis} [-outputInstanceName <string>] [-outputNetName <string>]] [-attachInstanceName <integer> | -outputInstanceName <string>] [-attachNetName <integer> | -outputNetName <string>]
+
+**ERROR: (IMPTCM-48):	"-cellMap" is not a legal option for command "streamOut". Either the current option or an option prior to it is not specified correctly.
+
+<CMD> setAnalysisMode -analysisType onChipVariation
+<CMD> set_power_pads -net VDD -auto_voltage_source_creation true
+<CMD> set_power_pads -net VSS -auto_voltage_source_creation true
+<CMD> streamOut pwm_gen.gds -mapFile cell_map.txt -libName DesignLib -merge { /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 } -units 2000 -mode ALL
+Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has version number: 5
+Parse flat map file...
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'D' encountered in numeric field of map file at line 1, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'I' encountered in numeric field of map file at line 2, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'I' encountered in numeric field of map file at line 3, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'N' encountered in numeric field of map file at line 4, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'N' encountered in numeric field of map file at line 5, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'A' encountered in numeric field of map file at line 6, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'A' encountered in numeric field of map file at line 7, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'O' encountered in numeric field of map file at line 8, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'O' encountered in numeric field of map file at line 9, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'O' encountered in numeric field of map file at line 10, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'O' encountered in numeric field of map file at line 11, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'O' encountered in numeric field of map file at line 12, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'A' encountered in numeric field of map file at line 13, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'A' encountered in numeric field of map file at line 14, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'F' encountered in numeric field of map file at line 15, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'F' encountered in numeric field of map file at line 16, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'F' encountered in numeric field of map file at line 17, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'F' encountered in numeric field of map file at line 18, Skipping this line.
+Writing GDSII file ...
+	****** db unit per micron = 2000 ******
+	****** output gds2 file unit per micron = 2000 ******
+	****** unit scaling factor = 1 ******
+Output for instance
+Output for bump
+Output for via structure generation total number 0
+Statistics for GDS generated (version 5)
+----------------------------------------
+Stream Out Layer Mapping Information:
+GDS Layer Number          GDS Layer Name
+----------------------------------------
+
+
+Stream Out Information Processed for GDS version 5:
+Units: 2000 DBU
+
+Object                             Count
+----------------------------------------
+Instances                             90
+
+Ports/Pins                             0
+
+Nets                                   0
+
+    Via Instances                      0
+
+Special Nets                           0
+
+    Via Instances                      0
+
+Metal Fills                            0
+
+    Via Instances                      0
+
+Metal FillOPCs                         0
+
+    Via Instances                      0
+
+Metal FillDRCs                         0
+
+    Via Instances                      0
+
+Text                                   0
+
+
+Blockages                              0
+
+
+Custom Text                            0
+
+
+Custom Box                             0
+
+Trim Metal                             0
+
+Scanning GDS file /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 to register cell name ......
+Merging GDS file /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 ......
+	****** Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has version number: 5.
+	****** Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has units: 1000 per micron.
+	****** unit scaling factor = 2 ******
+**WARN: (IMPOGDS-217):	Master cell: FILL1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL2 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL4 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI21XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL8 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AOI22XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AND2X1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: NAND2XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI2BB2XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI221XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI222XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: INVXL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: DFFTRX1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI2BB1XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AOI2BB1XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-218):	Number of master cells not found after merging: 15
+
+######Streamout is finished!
+<CMD> setStreamOutMode -cellMapFile cell_map.txt
+
+Usage: setStreamOutMode [-help] [-reset] [-cellInstanceColor {true|false}] [-cellMasterColor {true|false}] [-cellNameUserPrefix {prefix}] [-cellNameUserSuffix {suffix}] [-check_map_file {true|false}]
+                        [-ignoreFixedMask {true|false}] [-labelAllPinShape {true|false}] [-merge_trim_shapes <{{layers <layer_name_list> gap <floating> max_merge_num <int> masks {mask_num ...}} ...}>]
+                        [-oasisCompression {true|false}] [-oasisLayerName {true|false}] [-oasisSCellOffset {true|false}] [-pinTextOrientation {default|automatic}] [-removeNets {list of net names}]
+                        [-SEcompatible {true|false}] [-SEvianames {true|false}] [-snapToMGrid {true|false}] [-specifyViaName {default | %t_%v_%l(lcu)_%n_%r_%c_%u}] [-streamConvertRectToPath {true|false}]
+                        [-streamVersion <number>] [-supportPathType4 {true|false}] [-textSize <realNumber>] [-uniquifyCellNamesPrefix {true|false}] [-virtualConnection {true|false}] [-mergeAppend {true|false} ]
+
+**ERROR: (IMPTCM-48):	"-cellMapFile" is not a legal option for command "setStreamOutMode". Either the current option or an option prior to it is not specified correctly.
+
+<CMD> streamOut pwm_gen.gds -merge /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 -units 2000 -structureName pwm_gen
+Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has version number: 5
+Parse flat map file...
+Writing GDSII file ...
+	****** db unit per micron = 2000 ******
+	****** output gds2 file unit per micron = 2000 ******
+	****** unit scaling factor = 1 ******
+Output for instance
+Output for bump
+Output for physical terminals
+Output for logical terminals
+Output for regular nets
+Output for special nets and metal fills
+Output for via structure generation total number 15
+Statistics for GDS generated (version 5)
+----------------------------------------
+Stream Out Layer Mapping Information:
+GDS Layer Number          GDS Layer Name
+----------------------------------------
+    121                             COMP
+    122                          DIEAREA
+    58                             Via34
+    57                             Via34
+    50                            Metal3
+    107                           Metal6
+    46                            Metal3
+    45                            Metal3
+    44                            Metal3
+    63                             Via34
+    43                            Metal3
+    62                             Via34
+    41                             Via23
+    22                            Metal2
+    40                             Via23
+    37                             Via23
+    59                             Via34
+    36                             Via23
+    31                            Metal2
+    88                            Metal5
+    29                            Metal2
+    86                            Metal5
+    105                            Via56
+    9                             Metal1
+    66                            Metal4
+    42                             Via23
+    23                            Metal2
+    99                             Via56
+    19                             Via12
+    8                             Metal1
+    65                            Metal4
+    84                             Via45
+    30                            Metal2
+    87                            Metal5
+    7                             Metal1
+    6                             Metal1
+    64                            Metal4
+    83                             Via45
+    39                             Via23
+    16                             Via12
+    52                            Metal3
+    109                           Metal6
+    2                             Metal1
+    21                             Via12
+    78                             Via45
+    10                            Metal1
+    67                            Metal4
+    51                            Metal3
+    108                           Metal6
+    28                            Metal2
+    1                             Metal1
+    20                             Via12
+    38                             Via23
+    15                             Via12
+    5                             Metal1
+    81                             Via45
+    17                             Via12
+    49                            Metal3
+    18                             Via12
+    47                            Metal3
+    24                            Metal2
+    100                            Via56
+    48                            Metal3
+    106                           Metal6
+    25                            Metal2
+    3                             Metal1
+    79                             Via45
+    26                            Metal2
+    102                            Via56
+    4                             Metal1
+    27                            Metal2
+    85                            Metal5
+    104                            Via56
+    60                             Via34
+    61                             Via34
+    68                            Metal4
+    69                            Metal4
+    70                            Metal4
+    71                            Metal4
+    72                            Metal4
+    73                            Metal4
+    80                             Via45
+    82                             Via45
+    90                            Metal5
+    91                            Metal5
+    92                            Metal5
+    93                            Metal5
+    94                            Metal5
+    101                            Via56
+    103                            Via56
+    111                           Metal6
+    112                           Metal6
+    113                           Metal6
+    114                           Metal6
+    115                           Metal6
+    110                           Metal6
+    89                            Metal5
+    117                           Metal6
+    56                            Metal3
+    55                            Metal3
+    54                            Metal3
+    53                            Metal3
+    32                            Metal2
+    98                            Metal5
+    96                            Metal5
+    76                            Metal4
+    33                            Metal2
+    75                            Metal4
+    97                            Metal5
+    74                            Metal4
+    119                           Metal6
+    12                            Metal1
+    77                            Metal4
+    118                           Metal6
+    11                            Metal1
+    34                            Metal2
+    116                           Metal6
+    35                            Metal2
+    13                            Metal1
+    14                            Metal1
+    95                            Metal5
+
+
+Stream Out Information Processed for GDS version 5:
+Units: 2000 DBU
+
+Object                             Count
+----------------------------------------
+Instances                             90
+
+Ports/Pins                            11
+    metal layer Metal2                 6
+    metal layer Metal3                 2
+    metal layer Metal4                 2
+    metal layer Metal6                 1
+
+Nets                                 285
+    metal layer Metal1                26
+    metal layer Metal2               189
+    metal layer Metal3                60
+    metal layer Metal4                 6
+    metal layer Metal5                 3
+    metal layer Metal6                 1
+
+    Via Instances                    241
+
+Special Nets                          35
+    metal layer Metal1                21
+    metal layer Metal5                 4
+    metal layer Metal6                10
+
+    Via Instances                     90
+
+Metal Fills                            0
+
+    Via Instances                      0
+
+Metal FillOPCs                         0
+
+    Via Instances                      0
+
+Metal FillDRCs                         0
+
+    Via Instances                      0
+
+Text                                  68
+    metal layer Metal1                11
+    metal layer Metal2                45
+    metal layer Metal3                 8
+    metal layer Metal4                 3
+    metal layer Metal6                 1
+
+
+Blockages                              0
+
+
+Custom Text                            0
+
+
+Custom Box                             0
+
+Trim Metal                             0
+
+Scanning GDS file /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 to register cell name ......
+Merging GDS file /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 ......
+	****** Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has version number: 5.
+	****** Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has units: 1000 per micron.
+	****** unit scaling factor = 2 ******
+**WARN: (IMPOGDS-217):	Master cell: FILL1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL2 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL4 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI21XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL8 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AOI22XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AND2X1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: NAND2XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI2BB2XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI221XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI222XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: INVXL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: DFFTRX1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI2BB1XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AOI2BB1XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-218):	Number of master cells not found after merging: 15
+
+######Streamout is finished!
+<CMD> streamOut pwm_gen.gds -mapFile cell_map.txt -merge /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 -units 2000 -structureName pwm_gen
+Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has version number: 5
+Parse flat map file...
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'D' encountered in numeric field of map file at line 1, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'I' encountered in numeric field of map file at line 2, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'I' encountered in numeric field of map file at line 3, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'N' encountered in numeric field of map file at line 4, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'N' encountered in numeric field of map file at line 5, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'A' encountered in numeric field of map file at line 6, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'A' encountered in numeric field of map file at line 7, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'O' encountered in numeric field of map file at line 8, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'O' encountered in numeric field of map file at line 9, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'O' encountered in numeric field of map file at line 10, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'O' encountered in numeric field of map file at line 11, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'O' encountered in numeric field of map file at line 12, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'A' encountered in numeric field of map file at line 13, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'A' encountered in numeric field of map file at line 14, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'F' encountered in numeric field of map file at line 15, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'F' encountered in numeric field of map file at line 16, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'F' encountered in numeric field of map file at line 17, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'F' encountered in numeric field of map file at line 18, Skipping this line.
+Writing GDSII file ...
+	****** db unit per micron = 2000 ******
+	****** output gds2 file unit per micron = 2000 ******
+	****** unit scaling factor = 1 ******
+Output for instance
+Output for bump
+Output for via structure generation total number 0
+Statistics for GDS generated (version 5)
+----------------------------------------
+Stream Out Layer Mapping Information:
+GDS Layer Number          GDS Layer Name
+----------------------------------------
+
+
+Stream Out Information Processed for GDS version 5:
+Units: 2000 DBU
+
+Object                             Count
+----------------------------------------
+Instances                             90
+
+Ports/Pins                             0
+
+Nets                                   0
+
+    Via Instances                      0
+
+Special Nets                           0
+
+    Via Instances                      0
+
+Metal Fills                            0
+
+    Via Instances                      0
+
+Metal FillOPCs                         0
+
+    Via Instances                      0
+
+Metal FillDRCs                         0
+
+    Via Instances                      0
+
+Text                                   0
+
+
+Blockages                              0
+
+
+Custom Text                            0
+
+
+Custom Box                             0
+
+Trim Metal                             0
+
+Scanning GDS file /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 to register cell name ......
+Merging GDS file /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 ......
+	****** Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has version number: 5.
+	****** Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has units: 1000 per micron.
+	****** unit scaling factor = 2 ******
+**WARN: (IMPOGDS-217):	Master cell: FILL1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL2 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL4 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI21XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL8 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AOI22XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AND2X1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: NAND2XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI2BB2XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI221XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI222XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: INVXL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: DFFTRX1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI2BB1XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AOI2BB1XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-218):	Number of master cells not found after merging: 15
+
+######Streamout is finished!
+<CMD> setStreamOutMode -cellNameUserSuffix M
+<CMD> streamOut pwm_gen.gds -merge /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 -units 2000 -structureName pwm_gen
+Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has version number: 5
+Parse flat map file...
+Writing GDSII file ...
+	****** db unit per micron = 2000 ******
+	****** output gds2 file unit per micron = 2000 ******
+	****** unit scaling factor = 1 ******
+Output for instance
+Output for bump
+Output for physical terminals
+Output for logical terminals
+Output for regular nets
+Output for special nets and metal fills
+Output for via structure generation total number 15
+Statistics for GDS generated (version 5)
+----------------------------------------
+Stream Out Layer Mapping Information:
+GDS Layer Number          GDS Layer Name
+----------------------------------------
+    121                             COMP
+    122                          DIEAREA
+    58                             Via34
+    57                             Via34
+    50                            Metal3
+    107                           Metal6
+    46                            Metal3
+    45                            Metal3
+    44                            Metal3
+    63                             Via34
+    43                            Metal3
+    62                             Via34
+    41                             Via23
+    22                            Metal2
+    40                             Via23
+    37                             Via23
+    59                             Via34
+    36                             Via23
+    31                            Metal2
+    88                            Metal5
+    29                            Metal2
+    86                            Metal5
+    105                            Via56
+    9                             Metal1
+    66                            Metal4
+    42                             Via23
+    23                            Metal2
+    99                             Via56
+    19                             Via12
+    8                             Metal1
+    65                            Metal4
+    84                             Via45
+    30                            Metal2
+    87                            Metal5
+    7                             Metal1
+    6                             Metal1
+    64                            Metal4
+    83                             Via45
+    39                             Via23
+    16                             Via12
+    52                            Metal3
+    109                           Metal6
+    2                             Metal1
+    21                             Via12
+    78                             Via45
+    10                            Metal1
+    67                            Metal4
+    51                            Metal3
+    108                           Metal6
+    28                            Metal2
+    1                             Metal1
+    20                             Via12
+    38                             Via23
+    15                             Via12
+    5                             Metal1
+    81                             Via45
+    17                             Via12
+    49                            Metal3
+    18                             Via12
+    47                            Metal3
+    24                            Metal2
+    100                            Via56
+    48                            Metal3
+    106                           Metal6
+    25                            Metal2
+    3                             Metal1
+    79                             Via45
+    26                            Metal2
+    102                            Via56
+    4                             Metal1
+    27                            Metal2
+    85                            Metal5
+    104                            Via56
+    60                             Via34
+    61                             Via34
+    68                            Metal4
+    69                            Metal4
+    70                            Metal4
+    71                            Metal4
+    72                            Metal4
+    73                            Metal4
+    80                             Via45
+    82                             Via45
+    90                            Metal5
+    91                            Metal5
+    92                            Metal5
+    93                            Metal5
+    94                            Metal5
+    101                            Via56
+    103                            Via56
+    111                           Metal6
+    112                           Metal6
+    113                           Metal6
+    114                           Metal6
+    115                           Metal6
+    110                           Metal6
+    89                            Metal5
+    117                           Metal6
+    56                            Metal3
+    55                            Metal3
+    54                            Metal3
+    53                            Metal3
+    32                            Metal2
+    98                            Metal5
+    96                            Metal5
+    76                            Metal4
+    33                            Metal2
+    75                            Metal4
+    97                            Metal5
+    74                            Metal4
+    119                           Metal6
+    12                            Metal1
+    77                            Metal4
+    118                           Metal6
+    11                            Metal1
+    34                            Metal2
+    116                           Metal6
+    35                            Metal2
+    13                            Metal1
+    14                            Metal1
+    95                            Metal5
+
+
+Stream Out Information Processed for GDS version 5:
+Units: 2000 DBU
+
+Object                             Count
+----------------------------------------
+Instances                             90
+
+Ports/Pins                            11
+    metal layer Metal2                 6
+    metal layer Metal3                 2
+    metal layer Metal4                 2
+    metal layer Metal6                 1
+
+Nets                                 285
+    metal layer Metal1                26
+    metal layer Metal2               189
+    metal layer Metal3                60
+    metal layer Metal4                 6
+    metal layer Metal5                 3
+    metal layer Metal6                 1
+
+    Via Instances                    241
+
+Special Nets                          35
+    metal layer Metal1                21
+    metal layer Metal5                 4
+    metal layer Metal6                10
+
+    Via Instances                     90
+
+Metal Fills                            0
+
+    Via Instances                      0
+
+Metal FillOPCs                         0
+
+    Via Instances                      0
+
+Metal FillDRCs                         0
+
+    Via Instances                      0
+
+Text                                  68
+    metal layer Metal1                11
+    metal layer Metal2                45
+    metal layer Metal3                 8
+    metal layer Metal4                 3
+    metal layer Metal6                 1
+
+
+Blockages                              0
+
+
+Custom Text                            0
+
+
+Custom Box                             0
+
+Trim Metal                             0
+
+Scanning GDS file /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 to register cell name ......
+Merging GDS file /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 ......
+	****** Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has version number: 5.
+	****** Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has units: 1000 per micron.
+	****** unit scaling factor = 2 ******
+**WARN: (IMPOGDS-217):	Master cell: FILL1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL2 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL4 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI21XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL8 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AOI22XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AND2X1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: NAND2XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI2BB2XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI221XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI222XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: INVXL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: DFFTRX1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI2BB1XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AOI2BB1XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-218):	Number of master cells not found after merging: 15
+
+######Streamout is finished!
+<CMD> streamOut pwm_gen.gds -mapFile cell_map.txt -merge /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 -units 2000 -structureName pwm_gen
+Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has version number: 5
+Parse flat map file...
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'D' encountered in numeric field of map file at line 1, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'I' encountered in numeric field of map file at line 2, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'I' encountered in numeric field of map file at line 3, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'N' encountered in numeric field of map file at line 4, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'N' encountered in numeric field of map file at line 5, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'A' encountered in numeric field of map file at line 6, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'A' encountered in numeric field of map file at line 7, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'O' encountered in numeric field of map file at line 8, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'O' encountered in numeric field of map file at line 9, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'O' encountered in numeric field of map file at line 10, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'O' encountered in numeric field of map file at line 11, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'O' encountered in numeric field of map file at line 12, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'A' encountered in numeric field of map file at line 13, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'A' encountered in numeric field of map file at line 14, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'F' encountered in numeric field of map file at line 15, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'F' encountered in numeric field of map file at line 16, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'F' encountered in numeric field of map file at line 17, Skipping this line.
+**ERROR: (IMPOGDS-1557):	Invalid non-numeric character 'F' encountered in numeric field of map file at line 18, Skipping this line.
+Writing GDSII file ...
+	****** db unit per micron = 2000 ******
+	****** output gds2 file unit per micron = 2000 ******
+	****** unit scaling factor = 1 ******
+Output for instance
+Output for bump
+Output for via structure generation total number 0
+Statistics for GDS generated (version 5)
+----------------------------------------
+Stream Out Layer Mapping Information:
+GDS Layer Number          GDS Layer Name
+----------------------------------------
+
+
+Stream Out Information Processed for GDS version 5:
+Units: 2000 DBU
+
+Object                             Count
+----------------------------------------
+Instances                             90
+
+Ports/Pins                             0
+
+Nets                                   0
+
+    Via Instances                      0
+
+Special Nets                           0
+
+    Via Instances                      0
+
+Metal Fills                            0
+
+    Via Instances                      0
+
+Metal FillOPCs                         0
+
+    Via Instances                      0
+
+Metal FillDRCs                         0
+
+    Via Instances                      0
+
+Text                                   0
+
+
+Blockages                              0
+
+
+Custom Text                            0
+
+
+Custom Box                             0
+
+Trim Metal                             0
+
+Scanning GDS file /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 to register cell name ......
+Merging GDS file /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 ......
+	****** Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has version number: 5.
+	****** Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has units: 1000 per micron.
+	****** unit scaling factor = 2 ******
+**WARN: (IMPOGDS-217):	Master cell: FILL1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL2 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL4 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI21XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL8 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AOI22XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AND2X1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: NAND2XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI2BB2XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI221XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI222XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: INVXL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: DFFTRX1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI2BB1XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AOI2BB1XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-218):	Number of master cells not found after merging: 15
+
+######Streamout is finished!
+<CMD> streamOut pwm_gen.gds -merge /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 -units 2000 -structureName pwm_gen
+Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has version number: 5
+Parse flat map file...
+Writing GDSII file ...
+	****** db unit per micron = 2000 ******
+	****** output gds2 file unit per micron = 2000 ******
+	****** unit scaling factor = 1 ******
+Output for instance
+Output for bump
+Output for physical terminals
+Output for logical terminals
+Output for regular nets
+Output for special nets and metal fills
+Output for via structure generation total number 15
+Statistics for GDS generated (version 5)
+----------------------------------------
+Stream Out Layer Mapping Information:
+GDS Layer Number          GDS Layer Name
+----------------------------------------
+    121                             COMP
+    122                          DIEAREA
+    58                             Via34
+    57                             Via34
+    50                            Metal3
+    107                           Metal6
+    46                            Metal3
+    45                            Metal3
+    44                            Metal3
+    63                             Via34
+    43                            Metal3
+    62                             Via34
+    41                             Via23
+    22                            Metal2
+    40                             Via23
+    37                             Via23
+    59                             Via34
+    36                             Via23
+    31                            Metal2
+    88                            Metal5
+    29                            Metal2
+    86                            Metal5
+    105                            Via56
+    9                             Metal1
+    66                            Metal4
+    42                             Via23
+    23                            Metal2
+    99                             Via56
+    19                             Via12
+    8                             Metal1
+    65                            Metal4
+    84                             Via45
+    30                            Metal2
+    87                            Metal5
+    7                             Metal1
+    6                             Metal1
+    64                            Metal4
+    83                             Via45
+    39                             Via23
+    16                             Via12
+    52                            Metal3
+    109                           Metal6
+    2                             Metal1
+    21                             Via12
+    78                             Via45
+    10                            Metal1
+    67                            Metal4
+    51                            Metal3
+    108                           Metal6
+    28                            Metal2
+    1                             Metal1
+    20                             Via12
+    38                             Via23
+    15                             Via12
+    5                             Metal1
+    81                             Via45
+    17                             Via12
+    49                            Metal3
+    18                             Via12
+    47                            Metal3
+    24                            Metal2
+    100                            Via56
+    48                            Metal3
+    106                           Metal6
+    25                            Metal2
+    3                             Metal1
+    79                             Via45
+    26                            Metal2
+    102                            Via56
+    4                             Metal1
+    27                            Metal2
+    85                            Metal5
+    104                            Via56
+    60                             Via34
+    61                             Via34
+    68                            Metal4
+    69                            Metal4
+    70                            Metal4
+    71                            Metal4
+    72                            Metal4
+    73                            Metal4
+    80                             Via45
+    82                             Via45
+    90                            Metal5
+    91                            Metal5
+    92                            Metal5
+    93                            Metal5
+    94                            Metal5
+    101                            Via56
+    103                            Via56
+    111                           Metal6
+    112                           Metal6
+    113                           Metal6
+    114                           Metal6
+    115                           Metal6
+    110                           Metal6
+    89                            Metal5
+    117                           Metal6
+    56                            Metal3
+    55                            Metal3
+    54                            Metal3
+    53                            Metal3
+    32                            Metal2
+    98                            Metal5
+    96                            Metal5
+    76                            Metal4
+    33                            Metal2
+    75                            Metal4
+    97                            Metal5
+    74                            Metal4
+    119                           Metal6
+    12                            Metal1
+    77                            Metal4
+    118                           Metal6
+    11                            Metal1
+    34                            Metal2
+    116                           Metal6
+    35                            Metal2
+    13                            Metal1
+    14                            Metal1
+    95                            Metal5
+
+
+Stream Out Information Processed for GDS version 5:
+Units: 2000 DBU
+
+Object                             Count
+----------------------------------------
+Instances                             90
+
+Ports/Pins                            11
+    metal layer Metal2                 6
+    metal layer Metal3                 2
+    metal layer Metal4                 2
+    metal layer Metal6                 1
+
+Nets                                 285
+    metal layer Metal1                26
+    metal layer Metal2               189
+    metal layer Metal3                60
+    metal layer Metal4                 6
+    metal layer Metal5                 3
+    metal layer Metal6                 1
+
+    Via Instances                    241
+
+Special Nets                          35
+    metal layer Metal1                21
+    metal layer Metal5                 4
+    metal layer Metal6                10
+
+    Via Instances                     90
+
+Metal Fills                            0
+
+    Via Instances                      0
+
+Metal FillOPCs                         0
+
+    Via Instances                      0
+
+Metal FillDRCs                         0
+
+    Via Instances                      0
+
+Text                                  68
+    metal layer Metal1                11
+    metal layer Metal2                45
+    metal layer Metal3                 8
+    metal layer Metal4                 3
+    metal layer Metal6                 1
+
+
+Blockages                              0
+
+
+Custom Text                            0
+
+
+Custom Box                             0
+
+Trim Metal                             0
+
+Scanning GDS file /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 to register cell name ......
+Merging GDS file /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 ......
+	****** Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has version number: 5.
+	****** Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has units: 1000 per micron.
+	****** unit scaling factor = 2 ******
+**WARN: (IMPOGDS-217):	Master cell: FILL1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL2 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL4 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI21XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL8 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AOI22XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AND2X1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: NAND2XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI2BB2XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI221XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI222XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: INVXL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: DFFTRX1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI2BB1XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AOI2BB1XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-218):	Number of master cells not found after merging: 15
+
+######Streamout is finished!
+<CMD> streamOut pwm_gen.gds -merge /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 -units 2000 -structureName pwm_gen
+Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has version number: 5
+Parse flat map file...
+Writing GDSII file ...
+	****** db unit per micron = 2000 ******
+	****** output gds2 file unit per micron = 2000 ******
+	****** unit scaling factor = 1 ******
+Output for instance
+Output for bump
+Output for physical terminals
+Output for logical terminals
+Output for regular nets
+Output for special nets and metal fills
+Output for via structure generation total number 15
+Statistics for GDS generated (version 5)
+----------------------------------------
+Stream Out Layer Mapping Information:
+GDS Layer Number          GDS Layer Name
+----------------------------------------
+    121                             COMP
+    122                          DIEAREA
+    58                             Via34
+    57                             Via34
+    50                            Metal3
+    107                           Metal6
+    46                            Metal3
+    45                            Metal3
+    44                            Metal3
+    63                             Via34
+    43                            Metal3
+    62                             Via34
+    41                             Via23
+    22                            Metal2
+    40                             Via23
+    37                             Via23
+    59                             Via34
+    36                             Via23
+    31                            Metal2
+    88                            Metal5
+    29                            Metal2
+    86                            Metal5
+    105                            Via56
+    9                             Metal1
+    66                            Metal4
+    42                             Via23
+    23                            Metal2
+    99                             Via56
+    19                             Via12
+    8                             Metal1
+    65                            Metal4
+    84                             Via45
+    30                            Metal2
+    87                            Metal5
+    7                             Metal1
+    6                             Metal1
+    64                            Metal4
+    83                             Via45
+    39                             Via23
+    16                             Via12
+    52                            Metal3
+    109                           Metal6
+    2                             Metal1
+    21                             Via12
+    78                             Via45
+    10                            Metal1
+    67                            Metal4
+    51                            Metal3
+    108                           Metal6
+    28                            Metal2
+    1                             Metal1
+    20                             Via12
+    38                             Via23
+    15                             Via12
+    5                             Metal1
+    81                             Via45
+    17                             Via12
+    49                            Metal3
+    18                             Via12
+    47                            Metal3
+    24                            Metal2
+    100                            Via56
+    48                            Metal3
+    106                           Metal6
+    25                            Metal2
+    3                             Metal1
+    79                             Via45
+    26                            Metal2
+    102                            Via56
+    4                             Metal1
+    27                            Metal2
+    85                            Metal5
+    104                            Via56
+    60                             Via34
+    61                             Via34
+    68                            Metal4
+    69                            Metal4
+    70                            Metal4
+    71                            Metal4
+    72                            Metal4
+    73                            Metal4
+    80                             Via45
+    82                             Via45
+    90                            Metal5
+    91                            Metal5
+    92                            Metal5
+    93                            Metal5
+    94                            Metal5
+    101                            Via56
+    103                            Via56
+    111                           Metal6
+    112                           Metal6
+    113                           Metal6
+    114                           Metal6
+    115                           Metal6
+    110                           Metal6
+    89                            Metal5
+    117                           Metal6
+    56                            Metal3
+    55                            Metal3
+    54                            Metal3
+    53                            Metal3
+    32                            Metal2
+    98                            Metal5
+    96                            Metal5
+    76                            Metal4
+    33                            Metal2
+    75                            Metal4
+    97                            Metal5
+    74                            Metal4
+    119                           Metal6
+    12                            Metal1
+    77                            Metal4
+    118                           Metal6
+    11                            Metal1
+    34                            Metal2
+    116                           Metal6
+    35                            Metal2
+    13                            Metal1
+    14                            Metal1
+    95                            Metal5
+
+
+Stream Out Information Processed for GDS version 5:
+Units: 2000 DBU
+
+Object                             Count
+----------------------------------------
+Instances                             90
+
+Ports/Pins                            11
+    metal layer Metal2                 6
+    metal layer Metal3                 2
+    metal layer Metal4                 2
+    metal layer Metal6                 1
+
+Nets                                 285
+    metal layer Metal1                26
+    metal layer Metal2               189
+    metal layer Metal3                60
+    metal layer Metal4                 6
+    metal layer Metal5                 3
+    metal layer Metal6                 1
+
+    Via Instances                    241
+
+Special Nets                          35
+    metal layer Metal1                21
+    metal layer Metal5                 4
+    metal layer Metal6                10
+
+    Via Instances                     90
+
+Metal Fills                            0
+
+    Via Instances                      0
+
+Metal FillOPCs                         0
+
+    Via Instances                      0
+
+Metal FillDRCs                         0
+
+    Via Instances                      0
+
+Text                                  68
+    metal layer Metal1                11
+    metal layer Metal2                45
+    metal layer Metal3                 8
+    metal layer Metal4                 3
+    metal layer Metal6                 1
+
+
+Blockages                              0
+
+
+Custom Text                            0
+
+
+Custom Box                             0
+
+Trim Metal                             0
+
+Scanning GDS file /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 to register cell name ......
+Merging GDS file /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 ......
+	****** Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has version number: 5.
+	****** Merge file: /install/FOUNDRY/digital/180nm/RC_Libs/libraries/gds/STDCELL/tsmc13_m.gds2 has units: 1000 per micron.
+	****** unit scaling factor = 2 ******
+**WARN: (IMPOGDS-217):	Master cell: FILL1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL2 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL4 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI21XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: FILL8 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AOI22XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AND2X1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: NAND2XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI2BB2XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI221XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI222XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: INVXL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: DFFTRX1 not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: OAI2BB1XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-217):	Master cell: AOI2BB1XL not found in merged file(s) and will therefore not be included in the resulting streamOut file. Verify the file names specified with the -merge option are correct and that they contain a definition of this cell.
+**WARN: (IMPOGDS-218):	Number of master cells not found after merging: 15
+
+######Streamout is finished!
